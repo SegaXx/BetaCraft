@@ -1,102 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>BetaCraft - Beta 1.7.3 Minecraft Server</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1e1e1e;
-            color: #f0f0f0;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        header, footer {
-            background-color: #333;
-            padding: 1em;
-            text-align: center;
-        }
-        nav {
-            margin: 0 auto;
-            text-align: center;
-            padding: 1em;
-        }
-        nav a {
-            color: #f0f0f0;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .container {
-            max-width: 900px;
-            margin: 2em auto;
-            padding: 0 1em;
-        }
-        h1, h2 {
-            color: #4caf50;
-        }
-        ul {
-            list-style-type: square;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>BetaCraft - Beta 1.7.3 Minecraft Server</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://i.imgur.com/8xZ7n3f.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: rgba(51, 51, 51, 0.9);
+      padding: 1em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #f0f0f0;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: rgba(30, 30, 30, 0.95);
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #4caf50;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 1.2em;
+    }
+
+    img.beta-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      margin: 1em 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .links a {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      padding: 0.5em 1em;
+      margin: 0.5em;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .links a:hover {
+      background-color: #3e8e41;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to BetaCraft</h1>
-    <p>Survive, build, and thrive in Minecraft Beta 1.7.3</p>
+  <h1>Welcome to BetaCraft</h1>
+  <p>Survive, build, and thrive in Minecraft Beta 1.7.3</p>
 </header>
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#rules">Rules</a>
-    <a href="#community">Community</a>
+  <a href="#about">About</a>
+  <a href="#features">Features</a>
+  <a href="#rules">Rules</a>
+  <a href="#community">Community</a>
+  <a href="#links">Links</a>
 </nav>
 
 <div class="container">
-    <section id="about">
-        <h2>About BetaCraft</h2>
-        <p><strong>BetaCraft</strong> is a dedicated Minecraft Beta 1.7.3 survival server that blends nostalgic gameplay with fresh mechanics. Whether you're into town-building, running your own shop, or just kicking back with friends, BetaCraft has something for you.</p>
-        <ul>
-            <li>A welcoming, tight-knit community</li>
-            <li>Active and engaged developers</li>
-            <li>Relaxed and friendly environment</li>
-        </ul>
-    </section>
+  <section id="about">
+    <h2>About BetaCraft</h2>
+    <p><strong>BetaCraft</strong> is a dedicated Minecraft Beta 1.7.3 survival server that blends nostalgic gameplay with fresh mechanics.</p>
+    <ul>
+      <li>A welcoming, tight-knit community</li>
+      <li>Active and engaged developers</li>
+      <li>Relaxed and friendly environment</li>
+    </ul>
+    <img class="beta-img" loading="lazy" src="https://i.imgur.com/8xZ7n3f.jpg" alt="Isometric World Overview">
+  </section>
 
-    <section id="features">
-        <h2>Gameplay Features</h2>
-        <ul>
-            <li>Player-built towns</li>
-            <li>Economy driven by players</li>
-            <li>Ongoing community events</li>
-            <li>Frequent quality-of-life improvements</li>
-        </ul>
-    </section>
+  <section id="features">
+    <h2>Gameplay Features</h2>
+    <ul>
+      <li>Player-built towns</li>
+      <li>Economy driven by players</li>
+      <li>Ongoing community events</li>
+      <li>Frequent quality-of-life improvements</li>
+    </ul>
+    <img class="beta-img" loading="lazy" src="https://i.imgur.com/m33nJDr.jpg" alt="Community Builds">
+  </section>
 
-    <section id="rules">
-        <h2>In-Game Rules</h2>
-        <ul>
-            <li>No griefing or destruction of others' builds</li>
-            <li>No harming animals (especially dogs) or stealing</li>
-            <li>Ask permission before building near another player's town</li>
-            <li>Be yourself and have fun!</li>
-            <li>No hacks, cheats, or x-ray mods</li>
-            <li>Rules are subject to change for community balance</li>
-        </ul>
-    </section>
+  <section id="rules">
+    <h2>In-Game Rules</h2>
+    <ul>
+      <li>No griefing or destruction of others' builds</li>
+      <li>No harming animals (especially dogs) or stealing</li>
+      <li>Ask permission before building near another player's town</li>
+      <li>Be yourself and have fun!</li>
+      <li>No hacks, cheats, or x-ray mods</li>
+      <li>Rules are subject to change for community balance</li>
+    </ul>
+    <img class="beta-img" loading="lazy" src="https://i.imgur.com/4QIMv3b.jpg" alt="Nether Portal Design">
+  </section>
 
-    <section id="community">
-        <h2>Join the Community</h2>
-        <p>Chat with us, suggest features, or join in on events. More ways to connect coming soon!</p>
-        <!-- You can add a Discord invite or other link here -->
-    </section>
+  <section id="community">
+    <h2>Join the Community</h2>
+    <p>Chat with us, suggest features, or join in on events. More ways to connect coming soon!</p>
+    <img class="beta-img" loading="lazy" src="https://i.imgur.com/WAKqBo2.png" alt="CRT Monitor Gameplay">
+  </section>
+
+  <section id="links" class="links">
+    <h2>Links</h2>
+    <a href="https://discord.gg/QPHNhYk35g" target="_blank">Join our Discord</a>
+    <a href="#" onclick="alert('Server IP: play.betacraft.server'); return false;">Copy Server IP</a>
+  </section>
 </div>
 
 <footer>
-    <p>&copy; 2025 BetaCraft Server | Beta 1.7.3 Minecraft</p>
+  <p>&copy; 2025 BetaCraft Server | Minecraft Beta 1.7.3 Forever</p>
 </footer>
 
 </body>
